@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb~
+*.ipynb_*
+
+# Data files (large binaries, tokenized datasets)
+data/raw/
+data/processed/
+*.bin
+*.npy
+
+# Saved models and checkpoints
+saved_models/
+saved_model/
+*.pt
+*.pth
+*.ckpt
+
+# Exported / converted models (safetensors, GGUF)
+*.safetensors
+*.gguf
+
+# Configuration with secrets (if any)
+*.env
+.env.*
+
+# Logs and plots
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp

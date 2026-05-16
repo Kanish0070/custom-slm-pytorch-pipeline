@@ -1,0 +1,28 @@
+# Model architecture
+vocab_size: 50257
+block_size: 128
+n_layer: 6
+n_head: 6
+n_embd: 384
+dropout: 0.1
+bias: true
+
+# Training
+batch_size: 32
+gradient_accumulation_steps: 32
+learning_rate: 1.0e-4
+max_iters: 10000
+warmup_iters: 1000
+min_lr: 5.0e-5        # final learning rate after cosine decay
+eval_iters: 500
+eval_interval: 500    # evaluate every N iterations
+
+# Data
+data_dir: "data/processed"
+train_bin: "train.bin"
+val_bin: "val.bin"
+
+# Generation (inference)
+generate_max_tokens: 200
+temperature: 0.7
+top_k: 40
