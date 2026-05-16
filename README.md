@@ -45,6 +45,9 @@ After 10,000 iterations (≈23 minutes on an RTX 4060 laptop GPU), the model red
 
 > *Once upon a time there was a pumpkin. He was so rare that he could haveher at the other animals that the spider's face and it opened it. But the bird didn't want to enjoy the top...*
 
+<img width="554" height="432" alt="image" src="https://github.com/user-attachments/assets/d248be12-ad2d-4344-8934-48ad83f48d34" />
+
+
 ## 🛠️ Setup & Training
 
 ### 1. Clone the repository
